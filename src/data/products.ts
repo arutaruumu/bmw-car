@@ -1,23 +1,12 @@
+// src/data/products.ts
 export const products = [
   {
-    name: "M3 Competition",
-    desc: "High performance sedan",
-    power: "510hp",
-    speed: "3.5s",
-    top: "305km/h",
+    id: 'm4',
+    series: 'M Series',
+    name: 'BMW M4 Competition',
+    desc: 'The ultimate driving machine, redefined with track-ready performance and bold aesthetics.',
+    stats: { hp: '503', mph: '3.8', price: '78,100' },
+    color: '#1a3d7a'
   },
-  {
-    name: "7 Series",
-    desc: "Luxury flagship",
-    power: "375hp",
-    speed: "5.2s",
-    top: "250km/h",
-  },
-  {
-    name: "i8",
-    desc: "Hybrid sports",
-    power: "369hp",
-    speed: "4.4s",
-    top: "250km/h",
-  },
+  // Tambahkan model lainnya sesuai file HTML asli...
 ];
