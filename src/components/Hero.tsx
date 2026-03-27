@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "../components/Ui/Button";
+import { Button } from "./ui/Button";
 
 export default function Hero() {
   const scrollTo = (id: string) => {
@@ -7,7 +7,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative h-screen flex items-center overflow-hidden bg-[radial-gradient(ellipse_80%_60%_at_60%_50%,#0a1628_0%,#050608_70%)]">
+    <section id="hero" className="relative h-screen flex items-center overflow-hidden ">
     <div className="relative z-10 px-20 max-w-[560px]">
       <div className="text-[11px] font-medium tracking-[0.35em] text-blue-400 uppercase mb-6 flex items-center gap-3">
         <span className="w-8 h-[1px] bg-blue-600"></span> BMW Excellence · 2025
